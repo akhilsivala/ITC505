@@ -1,0 +1,9 @@
+* {
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
