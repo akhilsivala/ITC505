@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Holy Grail Layout</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="grid-container">
+            <header class="header">Welcome to My Site</header>
+
+            <nav class="menu-sidebar">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+            
+            <main class="main-content">
+                <h2>Array Sorting</h2>
+                <p>Enter numbers separated by commas:</p>
+                <input type="text" id="arrayInput" value="5,3,8,4,2" />
+                <button onclick="sortArray()">Sort Numbers</button>
+                <p>Sorted Array: <span id="sortedArray"></span></p>
+            </main>
+
+            <aside class="advertisement">
+                <a
+                    href="https://www.amazon.com/Magic-Bullet-Blender-Small-Silver/dp/B012T634SM/ref=lp_20853249011_1_4?pf_rd_p=53d84f87-8073-4df1-9740-1bf3fa798149&pf_rd_r=EPVFGCTN03ZAWXVCS5DG&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1"
+                    target="_blank"
+                >
+                    <img src="ad.jpg" alt="Advertisement" />
+                </a>
+            </aside>
+
+            <footer class="footer">
+                <h3>Addendum</h3>
+
+                <p>
+                    In my JavaScript project, I addressed the challenge of
+                    sorting an array of integers input by the user, opting for a
+                    bubble sort algorithm due to its simplicity and
+                    instructional value. The process began with capturing the
+                    user's comma-separated numbers as a string, which I then
+                    converted into an integer array. This conversion was pivotal
+                    for the sorting logic, ensuring the algorithm treated the
+                    inputs as numbers rather than strings. Implementing this
+                    feature involved parsing the input string into an array and
+                    using parseInt to convert each element to an integer,
+                    preparing it for sorting.
+                </p>
+
+                <p>
+                    The primary hurdle I faced was the accurate conversion of
+                    user input into an integer array, necessitating a method to
+                    handle potential non-numeric inputs effectively. Another
+                    challenge was the bubble sort algorithm itself, chosen for
+                    its educational merit despite its inefficiency for large
+                    datasets. Ensuring accurate iterations and swaps within the
+                    algorithm required meticulous attention to loop conditions.
+                    These challenges were surmounted by focusing on fundamental
+                    JavaScript techniques, offering a valuable learning
+                    experience in managing user input and algorithm
+                    implementation in a web environment.
+                </p>
+
+                <p>
+                    Last updated:
+                    <span id="lastModified"></span>
+                </p>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
