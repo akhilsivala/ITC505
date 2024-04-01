@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+    font-family: "Pacifico", cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh; */
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#adventure {
+    width: 80%;
+    /* max-width: 800px; */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-height: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    width: 80%;
+}
+
+#story {
+    margin: 20px;
+}
+
+#choices {
+    margin: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #c0815c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#addendumButton {
+    width: 20%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+button:hover {
+    background-color: #b5603f;
+}
+
+#image {
+    /* max-height: 100%;
+    max-width: 40%; */
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+}
+
+
+.addendum {
+    display: none; 
+    position: fixed; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; 
+    max-width: 600px;
+    height: 500px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    overflow: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    opacity: 0.99;
+}
+
+.addendum-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.addendum h1 {
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.addendum p, .addendum ul {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.addendum::-webkit-scrollbar {
+    width: 6px;
+}
+
+.addendum::-webkit-scrollbar-thumb {
+    background-color: #acacac;
+    border-radius: 10px;
+    height: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    padding: 0px 20px;
+    border-radius: 16px;
+}
+
+#lastModified {
+    background-color: aqua;
+}

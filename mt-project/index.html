@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>The Amulet of Time</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>The Amulet of Time</h1>
+        </header>
+
+        <main>
+            <div id="adventure">
+                <button id="addendumButton">Addendum</button>
+                <section id="story"></section>
+                <img id="image" src="" alt="Story Image" hidden />
+                <section id="choices"></section>
+            </div>
+
+            <section id="addendum" class="addendum">
+                <h1>Addendum</h1>
+                <p>Creating "The Amulet of Time" was an exhilarating journey that aligned with my passion for storytelling along with my interest in interactive media. As the creator of this game, I sought to craft an experience that would not only captivate players but also immerse them deeply into the fabric of the narrative I wove. Let me walk you through my process, the creative choices I made, the challenges I faced, and the insights I gained.</p>
+
+                <h3>Process and Creative Choices</h3>
+                <p><strong>Narrative Development:</strong> I started with the story, as it's the soul of any game. The idea was to create a rich, branching narrative that allowed players to make choices influencing the outcome. I drew inspiration from classic adventure tales and the mystique surrounding ancient artifacts. The "Amulet of Time" became the centerpiece, a relic with the power to control time, offering a wealth of narrative possibilities.</p>
+                <p><strong>Game Design:</strong> I decided early on that the game would be web-based, using HTML, CSS, and JavaScript - technologies I was familiar with. This choice was driven by the desire to make the game easily accessible. I structured the game around a series of choices leading to different paths, ensuring that each decision felt meaningful and impacted the story's ending.</p>
+                <p><strong>Visuals and UI:</strong> For the user interface, I aimed for simplicity and immersion. The use of images was crucial, as they provided visual cues to the player's current location or situation, enhancing the storytelling. The design was kept minimalistic, focusing the player's attention on the story and choices without unnecessary distractions.</p>
+                <p><strong>Implementation:</strong> The game logic was implemented in JavaScript, with a gameData object storing all possible game states, choices, and outcomes. Functions like updatePage and endGame managed the game's flow, updating the UI based on the player's decisions. This structure allowed for easy modifications and expansions of the game.</p>
+
+                <h3>Challenges and Overcoming Them</h3>
+                <p><strong>Balancing Complexity:</strong> One of the biggest challenges was balancing the complexity of the story with the gameplay. Ensuring that the game was engaging without being overwhelming required careful planning and iteration. I overcame this by mapping out the game's branches thoroughly before coding began, allowing me to visualize the entire narrative structure and make necessary adjustments early on.</p>
+                <p><strong>Technical Limitations:</strong> As my skills grew during development, I encountered limitations with my initial technical decisions. To overcome this, I dedicated time to learning more about JavaScript's capabilities, which enabled me to implement more complex game mechanics and enhance the user experience.</p>
+                <p><strong>User Engagement:</strong> Keeping players engaged was another challenge. I addressed this by incorporating visually compelling images and ensuring that the story was intriguing and varied enough to encourage exploration of different paths. Player feedback was invaluable in refining these aspects.</p>
+
+                <h3>Insights Gained</h3>
+                <p><strong>The Power of Storytelling</strong>This project reaffirmed my belief in the power of storytelling. A well-crafted narrative can deeply engage and move players, making the game an unforgettable experience.</p>
+                <p><strong>Importance of User Experience</strong>I learned that the user experience is just as important as the story. The game's interface, ease of navigation, and responsiveness all play crucial roles in keeping players immersed in the game.</p>
+                <p><strong>Flexibility in Game Design</strong>Flexibility is key in game development. Being open to change and willing to iterate on your design based on testing and feedback can significantly improve the final product.</p>
+                <p><strong>Learning Through Doing</strong>Finally, I realized that hands-on creation is one of the best ways to learn. Each challenge I faced and overcame taught me more than any tutorial could.</p>
+
+                <p>In conclusion, creating "The Amulet of Time" was a profoundly rewarding experience that taught me much about game design, storytelling, and the importance of user engagement. It's a project that has not only honed my skills but also fueled my passion for creating interactive stories.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Last updated: <span id="lastModified"></span></p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
